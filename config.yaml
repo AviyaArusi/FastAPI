@@ -1,0 +1,114 @@
+Windows:
+  - C:\Windows
+  - C:\Program Files
+  - C:\Program Files (x86)
+  - C:\ProgramData
+  - C:\Users
+  - C:\Documents and Settings
+  - C:\Recovery
+  - C:\PerfLogs
+  - C:\$Recycle.Bin
+  - C:\System Volume Information
+  - C:\Boot
+  - C:\Temp
+  - C:\tmp
+  - C:\Windows.old
+Linux:
+  - /etc/hosts
+  - /bin/sh
+  - /etc/passwd
+  - /etc/pam.conf
+  - /proc
+  - /etc/shadow
+  - /etc/profile
+  - ~/.bash_profile
+  - ~/.bash_login
+  - ~/.profile
+  - /home/user/.bashrc
+  - /etc/bash.bashrc
+  - /etc/profile.d/
+  - /etc/system.d
+  - /etc/rc.*
+  - /etc/init.*.
+  - /etc/resolv.conf
+  - /etc/gshadow
+  - /etc/pam.d
+  - /bin
+  - /sbin
+
+Bad Calls:
+- shutil
+- subprocess
+- sys
+- sysconfig
+- sysctl
+- syslog
+- sysprep
+- sysv_ipc
+- args
+- keywords
+
+Bad Signals:
+- eval
+- compile
+- rm 
+- cat 
+- nc 
+- exec
+- open
+- run
+- system
+- popen
+- popen2
+- popen3
+
+Bad Files:
+- .py
+- .exe
+- .dll
+- .so
+- .bat
+- .sh
+- .ps1
+- .psm1
+- .vbs
+- .vbe
+
+Bad Shell Cmds:
+- powershell.exe
+- -e
+- -en
+- -enc
+- -enco
+- ls
+- base64
+
+Bad Chars:
+- ^
+- +
+- $
+# - %
+
+Bad Cmds:
+- -nop
+- -noni
+- invoke-expression
+- iex
+- .downloadstring
+- downloadfile
+
+Bad Modules:
+- __init__
+- __new__
+- __reduce__
+- __builtin__
+- os
+- subprocess
+- sys
+- builtins
+- socket
+
+Bad Imports:
+- module
+- names
+- level
